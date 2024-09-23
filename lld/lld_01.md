@@ -4,7 +4,7 @@ Object Oriented Programming (OOP) is a programming paradigm which facilitates th
 
 ## Classes
 
-Classes are often referred to as a blueprint which defines the behaviour and properties associated with an object.
+Classes are often referred to as a blueprint which defines the behavior and properties associated with an object.
 
 **Example:**
 
@@ -46,11 +46,11 @@ Encapsulation is the ability to conceal the private data of an object from the e
         def set_password(self, new_password):
             self.__password = new_password
 
-In the above example, password is a private field of class User. Since the provate fields cannot be accessed outside the scope of the class, we utilise methods such as get_password and set_password to fetch and set the value to / from the class object respectively.
+In the above example, password is a private field of class User. Since the private fields cannot be accessed outside the scope of the class, we utilise methods such as get_password and set_password to fetch and set the value to / from the class object respectively.
 
-### 2. **Inheritence**
+### 2. **Inheritance**
 
-Inheritance is the ability to inherit properties from another class. While the class from which the property is being inherited from is called super class / base class / parent class, the class innheriting such properties is called the child class.
+Inheritance is the ability to inherit properties from another class. While the class from which the property is being inherited from is called super class / base class / parent class, the class inheriting such properties is called the child class.
 
 **Example:**
 

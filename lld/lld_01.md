@@ -118,7 +118,7 @@ Python provides a module for abstraction called the abc module (Abstract Base Cl
 
 A class that cannot be instantiated and is meant to be inherited by subclasses that implement the abstract methods.
 
-### **Abstract Method**
+#### **Abstract Method**
 
 A method that is declared, but contains no implementation. Any subclass inheriting the abstract class must implement the abstract method.
 
